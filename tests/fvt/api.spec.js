@@ -18,7 +18,7 @@
             utils.makeRestCall({method: 'GET'}, '/items', null, function(err, resp, body) {
                 //console.log(JSON.stringify(body, null, 4));
                 assert(resp.statusCode === 200, 'Unexpected status code: ' + resp.statusCode);
-                assert(body.total_rows === 8, "Incorrect total rows: ", body.total_rows);
+                assert(body.total_rows === 8888, "Incorrect total rows: ", body.total_rows);
                 done();
             });
         });
