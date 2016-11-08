@@ -3,7 +3,9 @@ var desireds = require('./desireds');
 
 var gruntConfig = {
         env: {
+		test:{
             // dynamically filled
+		}
         },
 
         mochaTest: {
